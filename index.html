@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet">
-    <link href="./font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,700italic,800,800italic" rel="stylesheet" type="text/css">
     
     <title>Gradeslam Test Whiteboard</title>
@@ -14,23 +14,25 @@
 	<div class="canvasAll">
 	
 		<div class="menuBar">
+		
 			<ul class="menuSquares">
-				<li class="colours"><i class="fa fa-circle fa-2x" aria-hidden="true">
-					<div id="colourDropdown">
-				     <ul id="otherToolsMenu">
-				        <li><a href="#">Sub-Link 1</a></li>
-				        <li><a href="#">Sub-Link 2</a></li>
-				        <li><a href="#">Sub-Link 3</a></li>
-				      </ul>
+				<li class="menuitem fa fa-circle fa-2x circleMain">
+					<ul class="items colourDropdown" style="display:none;">
+					<div class="circleChild">
+						<li class="fa fa-circle"></li>
+						<li class="fa fa-circle"></li>
+						<li class="fa fa-circle"></li>
+						<li class="fa fa-circle"></li>
 					</div>
-				</i></li>
-				
-				<li class="pencil"><i class="fa fa-pencil fa-2x" aria-hidden="true">
-					<ul class="otherToolsMenu">
-						<li class="pen"></li>
-						<li class="scissors"></li>
 					</ul>
-				</i></li>
+				</li>
+				
+				<li class="menuitem fa fa-pencil fa-2x">
+					<ul class="items pencils" style="display:none;">
+						<li class="pen">1</li>
+						<li class="scissors">2</li>
+					</ul>
+				</li>
 				
 				<li class="eraser"><i class="fa fa-eraser fa-2x" aria-hidden="true"></i></li>
 				<li class="trash"><i class="fa fa-trash fa-2x" aria-hidden="true"></i></li>
@@ -46,7 +48,7 @@
 
 	</div>
 
- 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type='text/javascript' src='app.js'></script>
 </body>

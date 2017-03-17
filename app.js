@@ -1,6 +1,7 @@
 $(document).ready(
     function(){
-    $("#colourDropdown").click(function(){
-         $("#otherToolsMenu").toggle();
+    $(".menuitem").click(function(){
+         $('.items', this).toggle();
+		 $(this).siblings().children(".items").css( "display", "none" );
     });       
 });
