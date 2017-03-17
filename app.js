@@ -1,10 +1,6 @@
-jQuery(function ($) {
-    ('.colourDropdown').hover(
-      function () {
-        $(this).show();
-      }, 
-      function () {
-        $(this).hide();
-      }
-    );
+$(document).ready(
+    function(){
+    $("#colourDropdown").click(function(){
+         $("#otherToolsMenu").toggle();
+    });       
 });
