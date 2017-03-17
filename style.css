@@ -1,0 +1,75 @@
+body {
+	text-align: center;
+	font-family: Open Sans,Arial,sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.bigCanvas{
+	width: 652px;
+	height: 502px;
+	border: 2px solid #464646;
+	border-left: 0px;
+}
+
+.menuBar{
+	width: 66px;
+	height: 506px;
+	background-color: #464646;
+}
+
+.canvasAll {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+.menuSquares {
+	padding: 0px;
+}
+
+.menuSquares li {
+	height: 55px;
+  	background-color: #e1e1e1;
+  	list-style: none;
+  	border-radius: 5px;
+  	margin: 3px;
+  	margin-top: 5px;
+  	display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fa {
+    margin-top: 2px;
+}
+
+.colourDropdown {
+	display: none;
+	width: 225px;
+	height: 50px;
+	background-color: red;
+}
+
+.otherToolsMenu {
+	display: none;
+	width: 120px;
+	height: 50px;
+	background-color: blue;
+}
+
+.colourDropdown {background:#FFF;float:left;}
+.colourDropdown ul {text-align:center;}
+.colourDropdown ul li {float:left;display:inline;}
+.colourDropdown ul li:hover {background:#E6E6E6;}
+.colourDropdown ul li a {display:block;padding:15px 25px;color:#444;}
+.colourDropdown ul li ul {position:absolute;width:110px;background:#FFF;}
+.colourDropdown ul li ul li {width:110px;}
+.colourDropdown ul li ul li a {display:block;padding:15px 10px;color:#444;}
+.colourDropdown ul li ul li:hover a {background:#F7F7F7;}
+.colourDropdown ul li ul.fallback {display:none;}
+.colourDropdown ul li:hover ul.fallback {display:block;}
